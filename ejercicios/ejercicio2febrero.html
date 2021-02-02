@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+<head>
+  <title>Índice de mis ejercicios</title>
+  <meta charset="UTF-8"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+
+<body>
+	<details>
+	<summary>Lista de Ejercicios</summary>
+	<ul>
+          <li><a href="https://yolandacr.github.io/ejerciciosistemas2febrero/20ene-login" target="_blank">Login</a></li>
+          <li><a href="https://yolandacr.github.io/ejerciciosistemas2febrero/20ene-logout" target="_blank">Logout</a></li>
+        </ul>
+		
+	</details>
+	
+	<input type="text" name="campo1"/>
+	<input type="text" name="campo2"/>
+	
+	<script>
+        $(document).ready(function() {
+            $("input").focus(function() {
+                $(this).css("background-color", "yellow");
+            });
+            $("input").blur(function() {
+                $(this).css("background-color","white");
+            });
+        });
+    </script>
+	
+	
+	
+</body>
+</html>
